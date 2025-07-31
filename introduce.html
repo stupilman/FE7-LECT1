@@ -3,48 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>소개 페이지</title>
   </head>
-  <body>
-    <header style="border-bottom: 2px solid lightsalmon">
-      <nav
-        style="
+  <body style="background: #000000">
+  <header style="border-bottom: 2px solid white">
+    <nav
+            style="
           display: flex;
           justify-content: space-between;
           align-items: center;
           padding: 0 20px;
         "
+    >
+      <h1 style="margin: 0">
+        <a
+                href="./index.html"
+                style="color: #f8f8f8; font-size: 40px; text-decoration: none"
+        >
+          Profile
+        </a>
+      </h1>
+      <div
+              style="
+            display: flex;
+            gap: 40px;
+            flex: 1;
+            justify-content: space-evenly;
+          "
       >
-        <h1 style="margin: 0">
+        <h2>
           <a
-            href="./index.html"
-            style="color: lightsalmon; font-size: 40px; text-decoration: none"
+                  href="./introduce.html"
+                  style="color: white; text-decoration: none"
           >
-            Profile
+            Introduce
           </a>
-        </h1>
-        <div style="display: flex; gap: 40px; width: 500px">
-          <h2>
-            <a
-              href="https://velog.io/@creworroad/posts"
-              style="color: darksalmon; text-decoration: none"
-            >
-              Blog
-            </a>
-          </h2>
-          <h2>
-            <a
-              href="https://github.com/stupilman"
-              style="color: darksalmon; text-decoration: none"
-            >
-              GitHub
-            </a>
-          </h2>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <h2>About me</h2>
+        </h2>
+        <h2>
+          <a href="./stack.html" style="color: white; text-decoration: none">
+            Tech Stack
+          </a>
+        </h2>
+      </div>
+    </nav>
+  </header>
+    <main style="color: white">
+      <h1 style="color: black">About me</h1>
       <p>안녕하세요 이번에 데브코스 수강하게 된 정진환입니다.</p>
       <p>
         인천대 정보통신공학과를 다니며 졸업과제로 팀프로젝트를 했던 경험으로
