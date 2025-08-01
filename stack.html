@@ -8,69 +8,51 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans+KR:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>기술스택</title>
   </head>
-  <body style="background: #000000">
-    <header style="border-bottom: 2px solid white">
-      <nav
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 20px;
-        "
-      >
-        <h1 style="margin: 0">
-          <a
-            href="./index.html"
-            style="color: #f8f8f8; font-size: 40px; text-decoration: none"
-          >
-            Profile
-          </a>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="./index.html" id="navbar-profile">Profile</a>
         </h1>
-        <div
-          style="
-            display: flex;
-            gap: 40px;
-            flex: 1;
-            justify-content: space-evenly;
-          "
-        >
+        <div id="navbar-container">
           <h2>
-            <a
-              href="./introduce.html"
-              style="color: white; text-decoration: none"
-            >
-              Introduce
-            </a>
+            <a href="./introduce.html" class="navbar-a">Introduce</a>
           </h2>
           <h2>
-            <a href="./stack.html" style="color: white; text-decoration: none">
-              Tech Stack
-            </a>
+            <a href="./stack.html" class="navbar-a">Tech Stack</a>
           </h2>
         </div>
       </nav>
     </header>
+
     <main>
-      <section style="color: white; margin: 20px 40px">
-        <div style="border: 1px solid white; border-radius: 10px">
-<!--          <h2 style="font-size: 40px; text-align: center">기술 스택</h2>-->
-          <p style="font-size: 70px; text-align: center; color: coral">
+      <section style="margin: 20px 40px">
+        <h2 id="header-profile">FrontEnd Stack</h2>
+        <!--        <div id="stack-border">-->
+        <div>
+          <p class="stacks" style="color: coral">
             <i class="fa-brands fa-html5"></i>
-              HTML
+            HTML
           </p>
-          <p style="font-size: 70px; text-align: center; color: #c0c015">
+          <p class="stacks" style="color: #c0c015">
             <i class="fa-brands fa-js"></i>
-              JavaScript
+            JavaScript
           </p>
-          <p style="font-size: 70px; text-align: center; color: #3333d5">
+          <p class="stacks" style="color: #3333d5">
             <i class="fa-brands fa-css3"></i>
-              CSS
+            CSS
           </p>
-          <p style="font-size: 70px; text-align: center; color: darkturquoise">
+          <p class="stacks" style="color: darkturquoise">
             <i class="fa-brands fa-react"></i>
-              React
+            React
           </p>
         </div>
       </section>
